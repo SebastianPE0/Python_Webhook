@@ -14,6 +14,7 @@ This project helps to automate the handling of incoming data from external syste
   ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Additional Information](#additional-information)
 
 --- 
 
@@ -43,7 +44,7 @@ pip install flask
  ```
 python app.py
  ```
-This will start the Flask server locally, listening on http://localhost:5000.
+This will start the Flask server locally, listening on http://localhost:5000/webhook.
 
 ---
 
@@ -71,3 +72,9 @@ This will trigger the webhook, and you should see the following response:
 }
  ```
 ---
+## Additional Information
+  Below you can see screenshots of the execution:
+  
+  - Postman
+   ![image](https://github.com/user-attachments/assets/b747bb2e-cc47-4662-80ab-720e616b103c)
+
